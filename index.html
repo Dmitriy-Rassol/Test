@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#openModal" class="btn-popup">Open pop-up button</a>
+      </header>
+      <main class="content">
+        <section class="section-grid">
+          <div data-number="1"></div>
+          <div data-number="2"></div>
+          <div data-number="3"></div>
+          <div data-number="4" class="double"></div>
+          <div data-number="5"></div>
+        </section>
+        <section class="section-flex">
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+        </section>
+      </main>
+      <footer class="footer container"></footer>
+    </div>
+
+    <div id="openModal" class="modal">
+        <div class="modal-content">
+         
+            <a href="#close" title="Close" class="close">×</a>
+          
+          <div class="modal-body">
+            <p>Pop-up</p>
+          </div>
+        </div>
+    </div>
+    
+  </body>
+</html>
