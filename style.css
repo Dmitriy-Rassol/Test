@@ -149,6 +149,7 @@ body {
   background: var(--header-color);
   position: fixed;
   bottom: 0;
+  max-width: 1170px;
   width: calc(100% - 30px);
   height: 100px;
 }
